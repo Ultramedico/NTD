@@ -7,7 +7,7 @@ import HowItWorksPage from "./pages/HowItWorks";
 import PartnersPage from "./pages/Partner";
 import TeamPage from "./pages/Team";
 import ContactPage from "./pages/contactUs";
-
+import NotFound from './pages/Notfound';
 const App = () => {
   return (
     <Router>
@@ -22,6 +22,7 @@ const App = () => {
             <Route path="/team" element={<TeamPage />} />
             <Route path="/contact" element={<ContactPage />} />
             {/* <Route path="/request-demo" element={<RequestDemoPage />} /> */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />

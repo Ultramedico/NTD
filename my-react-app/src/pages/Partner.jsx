@@ -1,31 +1,31 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-
+import { Link } from 'react-router-dom';
 const PartnersPage = () => {
   const partners = [
     {
-      name: "Transnet Cloud",
-      logo: "https://via.placeholder.com/150x80?text=Transnet+Cloud",
-      description: "Cloud infrastructure partner providing secure, scalable hosting"
+      name: "Netlify",
+      logo: "https://logo.clearbit.com/netlify.com",
+      description: "Netlify is a cloud platform that provides hosting and serverless backend services for web applications, enabling fast and scalable deployments."
     },
     {
       name: "Amazon Web Services",
-      logo: "https://via.placeholder.com/150x80?text=AWS",
-      description: "Cloud services and AI/ML tools for our predictive models"
+      logo: "https://logo.clearbit.com/aws.com",
+      description: "Cloud services and AI/ML tools for our predictive models and power our sever architecture"
     },
     {
       name: "Nigeria Centre for Disease Control",
-      logo: "https://via.placeholder.com/150x80?text=NCDC",
+      logo: "https://logo.clearbit.com/ncdc.gov.ng",
       description: "Primary data partner for disease surveillance in Nigeria"
     },
     {
       name: "WHO Nigeria",
-      logo: "https://via.placeholder.com/150x80?text=WHO",
+      logo: "https://logo.clearbit.com/who.int",
       description: "Global health guidance and outbreak response coordination"
     },
     {
       name: "Meta Data for Good",
-      logo: "https://via.placeholder.com/150x80?text=Meta",
+      logo: "https://logo.clearbit.com/meta.com",
       description: "Population mobility data for transmission risk modeling"
     }
   ];
@@ -101,9 +101,14 @@ const PartnersPage = () => {
             className="inline-block bg-emerald-100 text-emerald-700 px-6 py-3 rounded-lg"
           >
             <p className="font-medium">Interested in partnering with us?</p>
+            <Link
+            to="/contact">
+            
+           
             <button className="mt-2 bg-emerald-600 text-white px-4 py-2 rounded-lg hover:bg-emerald-700 transition duration-300">
               Contact Our Team
             </button>
+             </Link>
           </motion.div>
         </div>
       </div>
