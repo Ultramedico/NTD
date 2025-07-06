@@ -1,13 +1,14 @@
 import { motion } from 'framer-motion';
 import { FaLinkedin } from 'react-icons/fa';
 import Abdull from "./../assets/DP.jpg";
+import Tapha from "./../assets/TP.jpg";
 const TeamPage = () => {
   const teamMembers = [
     {
       name: "Mustapha Ashiru",
-      role: "Pharamacy Student",
-      bio: "5+ years in infectious disease surveillance across  Africa",
-      photo: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+      role: "Project and product manager",
+      bio: "Research expert,5th year PharmD student at the University of Ibadan, Nigeria",
+      photo: Tapha
     },
     // {
     //   name: "Emeka Okafor",
@@ -24,7 +25,7 @@ const TeamPage = () => {
     {
       name: "Abdullah Ahmad",
       role: "Software Engineer",
-      bio: "Full-stack developer building our dashboard interfaces, Microbiolgy graduate",
+      bio: "Full-stack developer building our dashboard interfaces, Microbiolgy graduate at the University of Ilorin, Nigeria",
       photo: Abdull
     },
     {
