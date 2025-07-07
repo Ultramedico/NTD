@@ -29,17 +29,17 @@ const TeamPage = () => {
       photo: Abdull
     },
     {
-      name: "Ngozi Chukwu",
-      role: "Field Operations",
-      bio: "Coordinates data collection across 12 states in Nigeria",
-      photo: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
-    },
-    {
-      name: "Kwame Mensah",
-      role: "Product Manager",
+      name: "Mahmoud Oluwafemi",
+      role: "UI/ux Designer",
       bio: "Ensures our solutions meet frontline health worker needs",
-      photo: "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
-    }
+      photo: MO
+    },
+    // {
+    //   name: "Kwame Mensah",
+    //   role: "Product Manager",
+    //   bio: "Ensures our solutions meet frontline health worker needs",
+    //   photo: "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80"
+    // }
   ];
 
   return (
